@@ -1,0 +1,17 @@
+.share-link-icon {
+    opacity: 1;
+    pointer-events: auto;
+    border: none;
+    display: none;
+}
+
+.shadow:hover .share-link-icon, .shadow:focus .share-link-icon, .shadow:focus-within .share-link-icon  {
+    border: none;
+    display: block;
+}
+
+/* .share-link-icon:hover, .share-link-icon:focus {
+    background-color: green;
+    border: none;
+    display: block;
+} */
