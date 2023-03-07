@@ -2,7 +2,7 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import React, { useCallback, useEffect, useState } from "react";
 import getUser from "../../lib/fauna/getUser";
-import { toast } from 'material-react-toastify';
+// import { toast } from 'material-react-toastify';
 import UploadCloudinary from "../../lib/cloudinary/UploadCloudinary";
 import updateUserProfile from "../../lib/fauna/updateUserProfile";
 import { socialLinks } from "../Form/Input/SocialLinks";
@@ -131,7 +131,7 @@ export default function Profile() {
             setFormValues([result.profile])
             localStorage.setItem('user', JSON.stringify(newData))
             setLoading(false);
-            toast.success("Profile updated successfully");
+            // toast.success("Profile updated successfully");
         }
     }
 
