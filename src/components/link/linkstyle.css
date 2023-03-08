@@ -1,0 +1,30 @@
+.share-link-icon {
+    opacity: 1;
+    pointer-events: auto;
+    border: none;
+    display: none;
+}
+
+.shadow:hover .share-link-icon, .shadow:focus .share-link-icon, .shadow:focus-within .share-link-icon  {
+    border: none;
+    display: block;
+}
+
+.share-link-icon-main{
+    border: none;
+    border-radius: 50%;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.title-side{
+    margin-top: 5% !important;
+    margin-bottom: -5%;
+    margin-left: 45%;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
